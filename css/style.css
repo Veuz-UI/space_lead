@@ -3077,8 +3077,8 @@ p.event-description2 {
 
 .contact-section2 .dot-shape {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: -30px;
+  right: -30px;
 }
 
 .contact-logo {
