@@ -288,7 +288,7 @@ ul {
 }
 
 /* Register Now button fixed */
- #registerNowFixed {
+ #registerNowFixed, #mediakit {
             position: fixed;
             right: 0px;
             top: 50%;
@@ -315,12 +315,17 @@ ul {
             box-shadow: -2px 0 10px rgba(0,0,0,0.1);
         }
 
+        #mediakit{
+          top: 70%;
+          height: 170px;
+          background: linear-gradient(360deg, rgba(90, 192, 190, 1) 0%, rgba(127, 82, 159, 1) 100%);
+        }
+
         
 
-        #registerNowFixed span {
+        #registerNowFixed span, #mediakit span {
             transform: rotate(-90deg);
             white-space: nowrap;
-            width: 100px;
             display: block;
             text-align: center;
         }
