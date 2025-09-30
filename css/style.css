@@ -3169,7 +3169,7 @@ p.event-description2 {
   position: absolute;
   background: url("../images/register-logo-bg-png.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
 }
 
 .pass-section .container {
