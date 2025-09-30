@@ -358,19 +358,6 @@ $(".row2").owlCarousel({
 
 // loader
 
-const preloader = document.getElementById("preloader");
-const loaderVideo = document.getElementById("loaderVideo");
-
-// Hide preloader only after video ends
-loaderVideo.addEventListener("ended", function() {
-    // Add fade-out class for smooth transition
-    preloader.classList.add("fade-out");
-    
-    // Remove preloader from DOM after transition
-    setTimeout(function() {
-        preloader.style.display = "none";
-    }, 500);
-});
 
 
     // testimonial carousel
